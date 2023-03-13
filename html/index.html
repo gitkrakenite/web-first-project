@@ -1,0 +1,405 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- connecting tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/index.css" />
+
+    <link rel="icon" type="image/x-png" href="../assets/vLogo.png">
+
+    <title>STARTUP</title>
+  </head>
+  <body class="">
+    <!-- topbar -->
+    <section
+      class=" md:flex justify-between items-center pl-[10px] pr-[10px] md:pl-[5em] md:pr-[5em] pt-[1em] bg-zinc-100 top-0 sticky z-50"
+    >
+      <!-- LHS -->
+      <div class=" md:flex gap-[3em] items-center">
+        <!-- logo -->
+        <div
+          class="text-zinc-600 text-2xl m-0 p-0 cursor-pointer"
+          style="font-weight: 700"
+          onclick="scrollTopHome()"
+        >
+          <p>
+            <span class="bgActive p-[5px] rounded-full text-white">Sta</span
+            >rtup
+          </p>
+        </div>
+        <!-- links -->
+        <div class="">
+          <ul
+            class=" mt-[2em] md:mt-[0px] md:flex gap-[1em] text-lg text-zinc-600 m-0 p-0"
+            style="font-weight: 600"
+          >
+            <li class="cursor-pointer active">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="./why.html">Why Us ?</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="./features.html">Features</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="./Pricing.html">Pricing</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- RHS -->
+      <div class="text-zinc-600 md:flex justify-between items-center gap-[3em]">
+        <div>
+          <p class="active">
+            Create Account
+          </p>
+        </div>
+        <div >
+          <p
+            class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-lg "
+          >
+            LOGIN
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- hero section -->
+    <section class=" pl-[10px] pr-[10px] pt-[2em] md:pl-[5em] md:pr-[5em] bg-zinc-100">
+      <!-- hero wrapper -->
+      <div class=" block md:flex gap-[2em] items-center">
+        <!-- hero text side -->
+        <div class="flex-[0.4]">
+          <h1 class="text-zinc-800 text-4xl md:text-6xl mb-[10px]" style="font-weight: 700">
+            We Boost
+          </h1>
+          <h1 class="text-zinc-800 text-4xl md:text-6xl mb-[10px]" style="font-weight: 700">
+            Growth For Your
+          </h1>
+          <h1 class="text-zinc-800 text-4xl md:text-6xl mb-[10px]" style="font-weight: 700">
+            Startup <span class="active">Business</span>
+          </h1>
+          <p class="text-zinc-600 mt-[2em]">
+            Lorem ipsum, dolor sit amet consectetur adipisicing. sit amet
+          </p>
+          <p class="text-zinc-600 mb-[2em]">of dolor sit amet</p>
+          <div>
+            <form class=" md:flex items-center gap-[10px] text-lg">
+              <div class="flex items-center">
+                <div class=" text-zinc-600 text-xl"><p>@</p></div>
+                <div>
+                  <input
+                    class="text-zinc-600 outline-none border-none p-[10px]"
+                    type="text"
+                    placeholder="Email address"
+                  />
+                </div>
+              </div>
+              <div>
+                <p
+                  class="bgActive pt-[8px] pb-[8px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-lg"
+                >
+                  Notify mail
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- hero image side -->
+        <div class="flex-[0.7]">
+          <div class="flex gap-[20px]">
+            <!-- main img -->
+            <div>
+              <img
+                src="https://images.pexels.com/photos/832998/pexels-photo-832998.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt=""
+                class="w-[100%] object-cover rounded-md"
+              />
+            </div>
+            <!-- other img -->
+            <div class=" hidden md:flex h-[70px] p-[20px] bg-white">
+              <div class="flex flex-col gap-[20px]">
+                <!-- Text -->
+                <div>
+                  <!--  -->
+                  <div class="text-zinc-600">Our Creative Team</div>
+                </div>
+
+                <div>
+                  <div class="w-[50px] h-[50px] rounded-full">
+                    <img
+                      src="https://images.pexels.com/photos/1726710/pexels-photo-1726710.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                      alt=""
+                      class="w-[100%] rounded-full object-cover"
+                    />
+                  </div>
+                  <div class="w-[50px] h-[50px]">
+                    <img
+                      src="https://images.pexels.com/photos/1726710/pexels-photo-1726710.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                      alt=""
+                      class="w-[100%] rounded-full object-cover"
+                    />
+                  </div>
+                  <div class="w-[50px] h-[50px]">
+                    <img
+                      src="https://images.pexels.com/photos/3778212/pexels-photo-3778212.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                      alt=""
+                      class="w-[100%] rounded-full object-cover"
+                    />
+                  </div>
+                  <div class="w-[50px] h-[50px]">
+                    <img
+                      src="https://images.pexels.com/photos/3778212/pexels-photo-3778212.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                      alt=""
+                      class="w-[100%] rounded-full object-cover"
+                    />
+                  </div>
+                  <div
+                    class="w-[50px] h-[80px] flex justify-centre items-center text-centre bgActive rounded-full"
+                  >
+                    <p
+                      class="pt-[8px] text-center flex justify-centre items-center pb-[8px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer w-full"
+                    >
+                      +5
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- companies -->
+      <div class="pt-[3em] pb-[2em] flex flex-col justify-centre items-center text-center gap-[1em] md:gap-[1px] md:items-left md:flex-row  md:justify-between">
+        <div class="flex items-center gap-[10px]">
+          <img
+            src="https://img.icons8.com/color/256/airbnb.png"
+            alt=""
+            class="w-[40px]"
+          />
+          <p class="text-xl">airbnb</p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <img
+            src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/256/external-hubspot-a-developer-and-marketer-of-software-products-logo-shadow-tal-revivo.png"
+            alt=""
+            class="w-[40px]"
+          />
+          <p class="text-xl">HubSpot</p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <img
+            src="https://img.icons8.com/color/256/google-logo.png"
+            alt=""
+            class="w-[40px]"
+          />
+          <p class="text-xl">Google</p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <img
+            src="https://img.icons8.com/color/256/microsoft.png"
+            alt=""
+            class="w-[40px]"
+          />
+          <p class="text-xl">Microsoft</p>
+        </div>
+        <div class="flex items-center gap-[10px]">
+          <p class="text-xl">Walmart</p>
+          <img
+            src="https://img.icons8.com/color/256/walmart.png"
+            alt=""
+            class="w-[40px]"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+    <section
+      class=" pl-[10px] pr-[10px] md:pl-[5em] md:pr-[5em] pt-[5em] pb-[4em] lightOrangeBg md:flex gap-[5em] items-center"
+    >
+      <!-- imgside -->
+      <div class="flex-[0.4]">
+        <img
+          src="https://images.pexels.com/photos/925786/pexels-photo-925786.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt=""
+          class="w-full rounded-md"
+        />
+      </div>
+      <!-- textSide -->
+      <div class="flex-[0.6]">
+        <p class="text-xl active mb-[1em]" style="font-weight: 500">About Us</p>
+        <p class="text-4xl" style="font-weight: 600">
+          Modern business must include
+        </p>
+        <p class="text-4xl mb-[1em]" style="font-weight: 600">
+          it is a crucial element.
+        </p>
+
+        <p class="text-zinc-600">
+          Lorem ipsum dolor sit amet. ipsum dolor sit amet.
+        </p>
+        <p class="text-zinc-600 mb-[3em]">Lorem, ipsum dolor.</p>
+
+        <div class=" md:flex gap-[2em]">
+          <div class="flex gap-[10px]">
+            <div>
+              <img
+                src="https://img.icons8.com/color/256/walmart.png"
+                alt=""
+                class="w-[40px]"
+              />
+            </div>
+            <div>
+              <h2>Our Ambition</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                ipsa officiis voluptatem perferendis rerum?
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-[10px]">
+            <div>
+              <img
+                src="https://img.icons8.com/color/256/walmart.png"
+                alt=""
+                class="w-[40px]"
+              />
+            </div>
+            <div>
+              <h2>Our Purpose</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                ipsa officiis voluptatem perferendis rerum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest news -->
+    <section class=" pl-[10px] pr-[10px] md:pl-[5em] md:pr-[5em] pt-[5em] pb-[4em] bg-zinc-100">
+      <div class="flex flex-col items-center">
+        <p class="active mb-[20px]">What's Happening</p>
+        <h1 class="text-2xl" style="font-weight: 700">Latest News</h1>
+      </div>
+      <div class="md:flex gap-[10px] pt-[2em]">
+        <div>
+          <img
+            src="https://images.pexels.com/photos/1595386/pexels-photo-1595386.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+            class="w-full rounded-md"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            exercitationem iure quidem nobis inventore.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+            class="w-full rounded-md"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            exercitationem iure quidem nobis inventore.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+            class="w-full rounded-md"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            exercitationem iure quidem nobis inventore.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- create it -->
+    <section class="pl-[5em] pr-[5em] pt-[5em] pb-[4em] lightOrangeBg text-center">
+
+      <h1 class=" text-2xl" style="font-weight: 600;">The Future is Intriguing</h1>
+      <h1 class=" text-2xl mb-[20px]" style="font-weight: 600;">Collectively, Let's Create It.</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, rerum.</p>
+      <p  class="mb-[2em]">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+ 
+      <div class="">
+
+        <span class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl">Get Started<span/>
+      </div>
+    </section>
+
+    <!-- calculator -->
+    <section class=" pl-[10px] pr-[10px] md:pl-[5em] md:pr-[5em] pt-[5em] pb-[4em] bg-zinc-100">
+        <div class="text-center">
+          <h1 class=" text-2xl" style="font-weight: 600;">Calculate Costing</h1>
+          <h1 class=" text-2xl mb-[20px]" style="font-weight: 600;">Collectively, Let's Create It.</h1>
+        </div>
+
+        <div class=" md:flex gap-[2em]  items-center justify-centre mt-[3em]">
+          
+            <input type="text" id="numOne" placeholder="Enter first number" class="p-[10px] text-lg mb-[1em] md:mb-[1px]">
+            <input type="text" id="numTwo" placeholder="Enter second number" class="p-[10px] text-lg mb-[1em] md:mb-[1px]">
+            <div class="flex gap-[10px] md:gap-[3em] items-center justify-center">
+              <div class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl text-xl" onclick="addTwoNumbers()">+</div>
+              <div class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl text-xl" onclick="subtractTwoNumbers()">-</div>
+              <div class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl text-xl" onclick="productTwoNumbers()">x</div>
+              <div class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl text-xl" onclick="divideTwoNumbers()">/</div>
+            </div>
+
+            <div class="text-2xl active flex items-center justify-center">=</div>
+
+            <div class=" flex items-center justify-center" id="answer">
+              Ans
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <section class="md:pl-[5em] md:pr-[5em] pl-[10px] pr-[10px] pt-[5em] pb-[4em] lightOrangeBg md:flex gap-[10px]">
+        <div class="flex-[0.5]">
+          <h2 class="text-3xl">Contact Us</h2>
+          <form class="flex flex-col gap-[10px] mt-[20px]" onsubmit="handleSubmit(e)" id="form">
+            <input type="text" id="username" required placeholder="Enter your name" class="p-[10px] rounded-md outline-none">
+            <input type="email" id="useremail" required placeholder="Enter your email" class="p-[10px] rounded-md outline-none">
+            <textarea cols="10" rows="10" id="usertext" required minlength="10" placeholder="Message" class="p-[10px] rounded-md outline-none"></textarea>
+            <button class="bgActive pt-[10px] pb-[10px] pl-[20px] pr-[20px] text-zinc-100 cursor-pointer rounded-2xl" onclick="handleSubmit()">Contact Us</button>
+          </form>
+
+          <div id="data" class="mt-[2em] text-2xl"></div>
+        </div>
+        <div  class="flex-[0.5]">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.795274702564!2d36.80007391526551!3d-1.2975313360057654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11eb4f9d91a5%3A0xf51b4362dde71587!2sDaystar%20University-Nairobi%20Campus%2CMbagathi%20Way!5e0!3m2!1sen!2ske!4v1678705912194!5m2!1sen!2ske"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[500px] rounded-lg"></iframe>
+        </div>
+    </section>
+
+    <script src="../js/index.js"></script>
+  </body>
+</html>
